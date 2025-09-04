@@ -109,7 +109,6 @@ function PainelGerencialFarmacia() {
   const [entregadores] = useState(dadosIniciais.entregadores);
   const [mostrarModal, setMostrarModal] = useState(false);
   const [tipoModal, setTipoModal] = useState('');
-  const [itemSelecionado, setItemSelecionado] = useState(null);
   const [notificacoes, setNotificacoes] = useState([]);
 
   // Estados dos formulários
