@@ -5,17 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"  // Added a build script using webpack
   },
   "dependencies": {
-    "abab": "^2.0.7", // substituído pela versão atualizada
-    "rimraf": "^5.0.0", // versão mais recente
-    "glob": "^9.0.0", // versão mais recente
-    "@rollup/plugin-terser": "^8.0.0", // substitui o deprecated rollup-plugin-terser
-    "sourcemap-codec": "^2.0.0", // versão atualizada
-    "workbox-cacheable-response": "^6.7.0", // versão mais recente
-    "workbox-google-analytics": "^6.7.0", // versão atualizada
-    "stable": "^0.2.0" // talvez você queira considerar remover ou substituir
+    "abab": "^2.0.7",
+    "rimraf": "^5.0.0",
+    "glob": "^9.0.0",
+    "@rollup/plugin-terser": "^8.0.0",
+    "sourcemap-codec": "^2.0.0",
+    "workbox-cacheable-response": "^6.7.0",
+    "workbox-google-analytics": "^6.7.0",
+    "stable": "^0.2.0"
   },
   "devDependencies": {
     "webpack": "^5.0.0",
